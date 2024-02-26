@@ -4,9 +4,26 @@ const Proyectos = () => {
   return (
     <section id="proyectos">
       <h1>Proyectos</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum alias, voluptatum quaerat deleniti nihil sed eius delectus libero id ducimus ut et, sunt fugit placeat esse ad blanditiis quae vitae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus minus possimus, ab laudantium eligendi cum et architecto aut sequi illum rem fuga deleniti a minima id, aperiam molestiae facilis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio dolore, quis saepe assumenda illum voluptas autem cumque amet vitae reprehenderit aliquam alias temporibus! Amet at possimus, assumenda perferendis facilis iusto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed sint numquam mollitia odit iste laudantium nemo animi, dolor quasi ipsa totam quo dolores aperiam rerum voluptatibus sequi, repudiandae repellat.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci voluptatum excepturi temporibus assumenda repudiandae saepe veritatis ipsam, hic illo ea nesciunt sint! Odit, ratione. Ad sequi ipsa animi fuga dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur numquam distinctio commodi, voluptatem ratione alias non error repudiandae voluptatum sunt quam omnis sed, pariatur architecto vero! Tempora quaerat optio atque?
-      </p>
+      <article>
+        <h2>Full TuttiFrutti</h2>
+        <p>Recreación del proyecto frontend bla bla bla Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio a tempore nobis delectus ullam velit voluptatum, non at quod distinctio explicabo, fuga veniam assumenda ipsum suscipit atque? Quod, perspiciatis ipsa.</p>
+      </article>
+      <article>
+        <h2>PokeApp</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt optio, tenetur, voluptatibus at voluptates repellat illum nam sunt consequuntur cupiditate corporis quia placeat accusantium rem sint, iure laborum itaque?</p>
+      </article>
+      <article>
+        <h2> Batec de Festa</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt optio, tenetur, voluptatibus at voluptates repellat illum nam sunt consequuntur cupiditate corporis quia placeat accusantium rem sint, iure laborum itaque?</p>
+      </article>
+      <article>
+        <h2> Second Quiz</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt optio, tenetur, voluptatibus at voluptates repellat illum nam sunt consequuntur cupiditate corporis quia placeat accusantium rem sint, iure laborum itaque?</p>
+      </article>
+      <article>
+        <h2> First quiz</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt optio, tenetur, voluptatibus at voluptates repellat illum nam sunt consequuntur cupiditate corporis quia placeat accusantium rem sint, iure laborum itaque?</p>
+      </article>
     </section>
   );
 };
