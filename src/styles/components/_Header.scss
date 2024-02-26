@@ -1,0 +1,33 @@
+@import '../utils/variables.scss';
+
+nav {
+    display: flex;
+    line-height: 40%;
+    width:fit-content;
+    margin: 10px ;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    margin-right: 20px;
+    justify-content: end;
+    background-color: brown;
+}
+
+nav>a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: green;
+    -webkit-text-stroke-width: 0.9px;
+    padding: 20px;
+    margin: 10px;
+    background-color: aliceblue;
+
+    &:hover {
+        background-color: lightgreen;
+    }
+
+    &:active {
+        background-color: darkgreen;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../utils/variables.scss';
+
+#root {
+    text-align: center;
+    margin: 10px auto;
+    min-height: 100vh;
+    font-size: 25px;
+    max-width: 70vw;
+    padding: 2rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: beige;
+}
