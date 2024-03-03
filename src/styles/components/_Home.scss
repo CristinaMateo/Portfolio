@@ -3,3 +3,19 @@
 p{
     text-align: justify;
 }
+a{
+    color: $text;
+    &:hover {
+        background-color: $light;
+        color:$dark
+    }
+
+    &:active {
+        background-color: $dark;
+        color:$light;
+    }
+}
+
+h1{
+    text-decoration: underline;
+}
