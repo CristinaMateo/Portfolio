@@ -9,7 +9,9 @@ const Main = () => {
   return (
     <main>
       <Home/>
+      <div id="experiencia"></div>
       <Experiencia/>
+      <div id="proyectos"></div>
       <Proyectos/>
     </main>
   );

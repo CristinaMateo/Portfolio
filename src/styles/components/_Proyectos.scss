@@ -1,0 +1,22 @@
+@import '../utils/variables.scss';
+
+#experiencia,#proyectos{
+    padding: 30px;
+}
+
+h2{
+    align-self: self-start;
+    display: flex;
+    padding-top: 30px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid>img{
+    width: 90%;
+    padding-left: 50px;
+    margin: auto;
+}
