@@ -1,33 +1,41 @@
 @import '../utils/variables.scss';
 
+
+header{
+    margin-bottom: 80px;
+
+}
 nav {
     display: flex;
     line-height: 40%;
-    width:fit-content;
-    margin: 10px ;
+    margin: 10px auto;
     position: fixed;
-    top: 20px;
-    right: 50px;
-    margin-right: 20px;
-    justify-content: end;
-    background-color: brown;
+    top: 0px;
+    right: 0px;
+    background-color: #f5eaf5;
+    border-radius: 20px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 nav>a {
     text-decoration: none;
     padding: 10px;
-    text-align: center;
-    color: green;
+    text-align: center;;
     -webkit-text-stroke-width: 0.9px;
     padding: 20px;
     margin: 10px;
-    background-color: aliceblue;
+    background-color: $backdark;
+    color: $text;
+    border-radius: 20px;
 
     &:hover {
-        background-color: lightgreen;
+        background-color: $light;
+        color:$dark
     }
 
     &:active {
-        background-color: darkgreen;
+        background-color: $dark;
+        color:$light;
     }
 }

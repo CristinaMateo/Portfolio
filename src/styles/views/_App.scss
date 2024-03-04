@@ -8,8 +8,10 @@
     max-width: 70vw;
     padding: 2rem;
     font-family:'Courier New', Courier, monospace;
+    color: $text;
 }
 
 body {
-    background-color: beige;
+    background-color: $background;
+    
 }
