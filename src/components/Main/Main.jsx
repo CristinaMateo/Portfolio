@@ -2,17 +2,20 @@ import React from "react";
 import Home from './Home';
 import Experiencia from './Experiencia';
 import Proyectos from './Proyectos';
+import About from './About';
 
 
 
 const Main = () => {
   return (
     <main>
-      <Home/>
+      <Home />
       <div id="experiencia"></div>
-      <Experiencia/>
+      <Experiencia />
       <div id="proyectos"></div>
-      <Proyectos/>
+      <Proyectos />
+      <div id="about"></div>
+      <About />
     </main>
   );
 };

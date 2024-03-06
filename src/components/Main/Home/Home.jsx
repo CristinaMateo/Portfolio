@@ -3,10 +3,13 @@ import React from "react";
 const Home = () => {
   return (
     <section>
-      <h1>Home</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum alias, voluptatum quaerat deleniti nihil sed eius delectus libero id ducimus ut et, sunt fugit placeat esse ad blanditiis quae vitae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatibus minus possimus, ab laudantium eligendi cum et architecto aut sequi illum rem fuga deleniti a minima id, aperiam molestiae facilis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio dolore, quis saepe assumenda illum voluptas autem cumque amet vitae reprehenderit aliquam alias temporibus! Amet at possimus, assumenda perferendis facilis iusto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sed sint numquam mollitia odit iste laudantium nemo animi, dolor quasi ipsa totam quo dolores aperiam rerum voluptatibus sequi, repudiandae repellat.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci voluptatum excepturi temporibus assumenda repudiandae saepe veritatis ipsam, hic illo ea nesciunt sint! Odit, ratione. Ad sequi ipsa animi fuga dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur numquam distinctio commodi, voluptatem ratione alias non error repudiandae voluptatum sunt quam omnis sed, pariatur architecto vero! Tempora quaerat optio atque?
-      </p>
+      
+      <h2>¡Hola! Soy Cristina. </h2>
+      <p>Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración.</p>
+
+      <a className="link" href="www.linkedin.com/in/mateo-cristina"> LinkedIn</a>
+      <a className="link" href="https://github.com/CristinaMateo">GitHub</a>
+      <a className="link" href="mailto:cris.mateo.99@gmail.com">cris.mateo.99@gmail.com</a>
     </section>
   );
 };
