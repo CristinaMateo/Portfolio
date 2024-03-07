@@ -18,5 +18,37 @@ a{
 
 h1{
     text-decoration: underline;
+    
 }
 
+.links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: inherit;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  
+  .link {
+    margin-right: 20px; 
+  }
+  
+  .link img {
+    margin-right: 8px; 
+    
+    width: 30px;
+  }
+
+  .smallGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    width: min-content;
+    column-gap: 8px;
+}
+  
