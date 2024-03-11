@@ -4,7 +4,6 @@ const Proyectos = () => {
   return (
     <section>
       <h1>Proyectos</h1>
-      <p>A continuación una muestra de los proyectos realizados del más reciente al más antiguo. Cada uno incluye un resumen y el acceso al códido en GitHub y a la página desplegada.</p>
 
       <article className="project">
         <h2>Full TuttiFrutti</h2>
