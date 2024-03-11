@@ -14,8 +14,10 @@ const Proyectos = () => {
             Aplicación web fullstack que muestra datos nutricionales de diferenctes frutas consumidas en España, además de su comparación mediante gráficos creados con <a href="https://react-chartjs-2.js.org/">react-chartjs-2</a> . También incluye un apartado extra que muestra los distintos usos que se le puede dar a diferentes frutas en la alimentación diaria. </p>
           <img src="/assets/FullFrutti.png" alt="Screenshot Full TuttiFrutti" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://tuttifrutti.onrender.com/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/Full-TuttiFrutti">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -26,8 +28,10 @@ const Proyectos = () => {
             Proyecto personal final del Bootcamp de Dessarrollo Web FullStack en The Bridge en el que se crea una aplicación web fullstack con ReactJS y NodeJS, además de una base de datos generada con PostgreSQL.</p>
           <img src="/assets/partyPulse.png" alt="Screenshot Party Pulse" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://partypulse-ynvm.onrender.com/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/Batec_de_Festa">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -37,8 +41,10 @@ const Proyectos = () => {
             Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams().</p>
           <img src="/assets/pokeapp.png" alt="Screenshot PokeApp" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://sweet-kitsune-b9bcb3.netlify.app">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/weatherInfo">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -48,8 +54,10 @@ const Proyectos = () => {
             Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams().</p>
           <img src="/assets/weather.png" alt="screenshot WeatherInfo" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://yourweatherinfobycris.netlify.app/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/pokeApp">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -58,8 +66,10 @@ const Proyectos = () => {
           <p>Aplicación web creada con Vanilla que interactúa con la api de <a href="https://www.fruityvice.com/">Fruityvice</a> para mostrar datos nutricionales de diferenctes frutas, si son parte de la temporada actual según el momento de consulta y su comparación nutricional mediante gráficos creados con <a href="https://www.chartjs.org/docs/latest/">chartjs</a>.</p>
           <img src="/assets/myTF.png" alt="Screenshot My TuttiFrutti" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://cristinamateo.github.io/mytuttifruttiApp/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/mytuttifruttiApp">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -68,8 +78,10 @@ const Proyectos = () => {
           <p>Segunda práctica de quiz. Creado con Vanilla hace peticiones a <a  href="https://opentdb.com/">Open DB</a> Para crear un quiz con una temática televisiva y preguntas aleatorias que proporciona la API. Estilada como un teletexto para que concuerde con la temática del quiz. Ha sido gestionada con Firebase para los datos del usuario y su progreso en cada realización que haga del quiz.</p>
           <img src="/assets/Telequiz.png" alt="Screenshot Second Quiz" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://cristinamateo.github.io/secQuiz/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/secQuiz">GitHub</a>
+        </span>
       </article>
 
       <article className="project">
@@ -78,8 +90,10 @@ const Proyectos = () => {
           <p>Primer proyecto con Vanilla, es el proyecto precursor de Second Quiz. Este fue el primer proyecto desarrollado con JS para manejar las respuestas del quiz y mostrar la puntuación final una vez que el usuario envía sus respuestas. </p>
           <img src="/assets/FQuiz.png" alt="Screenshot First Quiz" />
         </article>
+        <span className="enlaces">
         <a className="link" href="https://cristinamateo.github.io/Quiz/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/Quiz">GitHub</a>
+        </span>
       </article>
     </section>
   );

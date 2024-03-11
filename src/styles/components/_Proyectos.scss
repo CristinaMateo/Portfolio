@@ -12,8 +12,9 @@ h2{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .grid>img{
@@ -29,4 +30,9 @@ h2{
     border: solid $dark 2px;
     border-radius: 35px;
     text-decoration: none;
+}
+
+.enlaces{
+display: flex;
+justify-content: center;
 }
