@@ -9,15 +9,15 @@ const Home = () => {
 
       <div className="links-container">
         <a className="link smallGrid" href="https://linkedin.com/in/mateo-cristina">
-          <img src="src/assets/linkedin.png" alt="LinkedIn" />
+          <img src="/assets/linkedin.png" alt="LinkedIn" />
           LinkedIn
         </a>
         <a className="link smallGrid" href="https://github.com/CristinaMateo">
-        <img src="src/assets/github.png" alt="GitHub" />
+        <img src="/assets/github.png" alt="GitHub" />
           GitHub
         </a>
         <a className="link smallGrid" href="mailto:cris.mateo.99@gmail.com">
-        <img src="src/assets/mail.png" alt="Mail" />
+        <img src="/assets/mail.png" alt="Mail" />
           cris.mateo.99@gmail.com
         </a>
       </div>
