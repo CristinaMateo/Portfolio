@@ -11,10 +11,10 @@ const About = () => {
       </p>
       <p>
         Mi pasión es el desarrollo web, y estoy emocionada por contribuir al mundo tecnológico con soluciones creativas. Siempre estoy abierta a nuevas oportunidades de aprendizaje y colaboración.
-      </p>
-      <p>
+        <br /><br />
         En cuanto a mis habilidades en desarrollo Full Stack:
-        <ul>
+      </p>
+      <ul className="habilidades">
           <li>Frontend: Manejo avanzado de HTML5, CSS3, Mobile First y experiencia con SASS.</li>
           <li>Javascript (ES6) y uso de servicios de terceros (APIs), junto con sólidos conocimientos en el protocolo HTTP.</li>
           <li>Experiencia destacada con bases de datos SQL y noSQL, especialmente en MongoDB.</li>
@@ -24,7 +24,7 @@ const About = () => {
           <li>Familiaridad con SCRUM y la filosofía Agile.</li>
           <li>Experiencia comprobada en DevOps, incluyendo Docker, CI/CD y Kubernetes.</li>
         </ul>
-      </p>
+      
       <p>
         Estoy emocionada por seguir avanzando en el desarrollo Full Stack y explorar nuevas oportunidades para aplicar mis habilidades.
       </p>
