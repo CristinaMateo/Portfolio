@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section>
+    <section className="about">
       <h1>Acerca de mí </h1>
       <p>Hola, soy Cristina, una Junior Full Stack Developer. Mi fascinación por la tecnología me llevó a un bootcamp de desarrollo web, donde me sumergí en la creación de soluciones digitales innovadoras.
       </p>
