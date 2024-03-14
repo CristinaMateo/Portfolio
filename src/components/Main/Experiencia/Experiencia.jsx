@@ -3,7 +3,7 @@ import React from "react";
 const Experiencia = () => {
   return (
     <section>
-      <h1>Experiencia</h1>
+      <h1>Historial Profesional y Académico</h1>
       <h3>Experiencia Laboral</h3>
       <h5>INFORMADORA | CC EL TRIANGLE | JULIO 2021 - AGOSTO 2023 </h5>
       <ul>
