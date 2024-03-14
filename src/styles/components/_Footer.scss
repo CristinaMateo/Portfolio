@@ -1,0 +1,13 @@
+@import '../utils/variables.scss';
+
+footer{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    border-top: dashed $accent 2px;
+}
+
+.about{
+    padding-bottom: 30px;
+}

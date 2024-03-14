@@ -5,9 +5,15 @@ const Home = () => {
     <section>
       
       <h2>¡Hola! Soy Cristina. </h2>
-      <p>Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración.</p>
+      <article className="homegrid">
+      <p>Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración.
+        <br /><br />
+        Encuentrame en:
+      </p>
+      <img src="/assets/fotoPerfil.png" alt="Foto de perfil" className="fotoPerfil"/>
+      </article>
 
-      <div className="links-container">
+      <article className="links-container">
         <a className="link smallGrid" href="https://linkedin.com/in/mateo-cristina">
           <img src="/assets/linkedin.png" alt="LinkedIn" />
           LinkedIn
@@ -20,7 +26,7 @@ const Home = () => {
         <img src="/assets/mail.png" alt="Mail" />
           cris.mateo.99@gmail.com
         </a>
-      </div>
+      </article>
     </section>
   );
 };
