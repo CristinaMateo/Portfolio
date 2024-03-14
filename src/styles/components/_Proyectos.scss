@@ -2,11 +2,11 @@
 
 #experiencia,#proyectos, #about{
     padding: 50px;
+    border-bottom: dashed $accent 2px;
 }
 
-h2{
-    align-self: self-start;
-    display: flex;
+h3{
+    text-decoration:underline;
     padding-top: 30px;
 }
 
