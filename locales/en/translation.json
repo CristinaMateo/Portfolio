@@ -1,0 +1,91 @@
+{
+    "menu": {
+        "home": "Home",
+        "experiencia": "Experience",
+        "proyectos": "Projects",
+        "about": "About me",
+        "historial": "My professional and academic history"
+    },
+    "about": {
+        "aboutp1": " I am Junior Full Stack Developer because my fascination with technology led me to a web development bootcamp, where I immersed myself in creating innovative digital solutions. Aside from my background in philology, my ability to learn languages translates into a unique ability to face challenges from diverse perspectives. Thanks to my track record, I quickly adapt to dynamic environments and collaborate effectively with diverse teams. My passion is web development, and I’m excited to contribute to the tech world with creative solutions. I am always open to new opportunities for learning and collaboration.",
+        "aboutp2": "As a philologist who has made the leap to the tech world, I am excited about this new journey I am undertaking. My love of language is now combined with my passion for technology as I dive into FullStack development. Each line of code I write is one more step towards my transformation, merging my language skills with the necessary technical mastery in this field. With determination and an open mind, I am ready to face any challenge that comes my way and become a successful professional in the tech world, bringing with me the valuable experience of my past as a philologist.",
+        "aboutp3": "My Full Stack development skills include:",
+        "aboutp4": "I’m excited to continue advancing Full Stack development and explore new opportunities to apply my skills."
+    },
+    "skills": {
+        "frontend": "Frontend: Advanced proficiency in HTML5, CSS3, Mobile First, and experience with SASS.",
+        "javascript": "Javascript (ES6) and usage of third-party services (APIs), along with solid knowledge in the HTTP protocol.",
+        "databases": "Outstanding experience with SQL and noSQL databases, especially in MongoDB.",
+        "backend": "Backend development with NodeJS and ExpressJS, focused on creating RESTful APIs.",
+        "spa": "Creation of SPA's using ReactJS.",
+        "testing": "Unit testing and E2E testing with extensive practice.",
+        "agile": "Familiarity with SCRUM and Agile philosophy.",
+        "devops": "Proven experience in DevOps, including Docker, CI/CD, and Kubernetes."
+    },
+    "experience": {
+        "title": "Work Experience",
+        "position": "INFORMER",
+        "company": "CC EL TRIANGLE",
+        "date": "JULY 2021 - AUGUST 2023",
+        "respon1": "Customer service",
+        "respon2": "Administrative tasks",
+        "respon3": "Reports for center management"
+    },
+    "education": {
+        "title": "Education",
+        "info": [
+            {
+                "course": "BOOTCAMP FULLSTACK DEVELOPMENT",
+                "institution": "The Bridge",
+                "date": "SEPTEMBER 2023 – JANUARY 2024",
+                "topics": [
+                    "Layout: HTML5, CSS3, SASS, responsive and mobile-first design.",
+                    "JavaScript (ES6) and third-party services (APIs).",
+                    "Database with MongoDB and MySQL.",
+                    "Creation of SPA's with React.",
+                    "Backend development with NodeJS and ExpressJS."
+                ]
+            },
+            {
+                "course": "MASTER OF TEACHER TRAINING (SPECIALIZATION IN CATALAN AND SPANISH)",
+                "institution": "Autonomous University of Barcelona",
+                "date": "OCTOBER 2021 – JUNE 2022"
+            },
+            {
+                "course": "DEGREE IN HISPANIC PHILOLOGY (MENTION IN LANGUAGE)",
+                "institution": "University of Barcelona",
+                "date": "SEPTEMBER 2017 – JUNE 2021"
+            }
+        ]
+    },
+    "home": {
+        "greeting": "Hello! I'm Cristina.",
+        "description": "Passionate Junior Full Stack Developer with solid knowledge in web development and Full Stack skills. I'm excited to contribute to the tech world with creative solutions and explore new opportunities for learning and collaboration.",
+        "find": " Find me at:"
+    },
+    "projects": {
+        "TF": {
+            "p1": "Recreation of the project 'My TuttiFrutti App' using ReactJS and NodeJS, as well as a custom database generated with PostgreSQL. The project it is based on can be visited on my GitHub page.",
+            "p2": "Fullstack web application that displays nutritional data of different fruits consumed in Spain, as well as their comparison through charts created with",
+            "p3": "It also includes an extra section that shows the different uses that can be given to different fruits in daily nutrition."
+        },
+        "PaPu": {
+            "p1": "Event management web page. It allows you to visit the details of each event. Once a user is created and logged in, they can also create / modify / delete their own events. Phase two will include an option to confirm attendance at events and see who will attend.",
+            "p2": "Final personal project of the FullStack Web Development Bootcamp at The Bridge where a fullstack web application is created with ReactJS and NodeJS, as well as a database generated with PostgreSQL."
+        },
+        "Poke": {
+            "p1": "Web application created with React that functions as a Pokédex interacting with the ",
+            "p2":" to display the details of each Pokémon. It allows searches by the Pokémon's ID or name, as well as creating new Pokémon with react-hook-form saved in the context.",
+            "p3": "It is a project that is part of the evolution of learning during the FullStack Web Development Bootcamp at The Bridge and practices the use of useDebounce(), useEffect(), useState(), useContext(), and useParams()."
+        },
+        "WA": {
+            "p1": "Web application created with React that interacts with ",
+            "p2": " to display the weather forecast every three hours for the next five days based on the city searched by the user.",
+            "p3": "It is a project that is part of the evolution of learning during the FullStack Web Development Bootcamp at The Bridge and practices the use of useDebounce(), useEffect(), useState(), useContext(), and useParams()."
+        },
+        "SeQ": {
+            "p1": "Second quiz practice, the first one is visitable on my GitHub. Created with Vanilla, it makes requests to ",
+            "p2": " to create a quiz with a television theme and random questions provided by the API. Styled like a teletext to match the quiz theme. It has been managed with Firebase for user data and their progress in each quiz completion."
+        }
+    }
+}

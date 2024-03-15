@@ -1,99 +1,76 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
-const Proyectos = () => { 
+
+const Proyectos = () => {
+  const { t } = useTranslation();
+
+
   return (
     <section>
-      <h1>Proyectos</h1>
+      <h1>{t("menu.proyectos")}</h1>
 
       <article className="project">
         <h3>Full TuttiFrutti</h3>
         <article className="grid">
-          <p>Recreación del proyecto "My TuttiFrutti App" mediante uso de ReactJS y NodeJS, además de una base de datos propia generada con PostgreSQL. El proyecto en el que se basa se puede visitar en mi página de GitHub.
-            <br />
-            Aplicación web fullstack que muestra datos nutricionales de diferenctes frutas consumidas en España, además de su comparación mediante gráficos creados con <a href="https://react-chartjs-2.js.org/">react-chartjs-2</a> . También incluye un apartado extra que muestra los distintos usos que se le puede dar a diferentes frutas en la alimentación diaria. </p>
+          <p>{t("projects.TF.p1")}<br />{t("projects.TF.p2")} <a href="https://react-chartjs-2.js.org/">react-chartjs-2</a>. {t("projects.TF.p3")}. </p>
           <img src="/assets/FullFrutti.png" alt="Screenshot Full TuttiFrutti" />
         </article>
         <span className="enlaces">
-        <a className="link" href="https://tuttifrutti.onrender.com/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/Full-TuttiFrutti">GitHub</a>
+          <a className="link" href="https://tuttifrutti.onrender.com/">Web</a>
+          <a className="link" href="https://github.com/CristinaMateo/Full-TuttiFrutti">GitHub</a>
         </span>
       </article>
 
       <article className="project">
         <h3> Party Pulse</h3>
         <article className="grid">
-          <p>Página web de gestión de eventos. Permite visitar los detalles de cada evento. Una vez creado un usuario y loggeado también se pueden crear/ modificar / eliminar los eventos propios. En fase dos se incluirá una opción de confirmar la asistencia a los eventos y ver quién asistirá.
-            <br />
-            Proyecto personal final del Bootcamp de Dessarrollo Web FullStack en The Bridge en el que se crea una aplicación web fullstack con ReactJS y NodeJS, además de una base de datos generada con PostgreSQL.</p>
+          <p>{t("projects.PaPu.p1")}<br />{t("projects.PaPu.p2")}</p>
           <img src="/assets/partyPulse.png" alt="Screenshot Party Pulse" />
         </article>
         <span className="enlaces">
-        <a className="link" href="https://partypulse-ynvm.onrender.com/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/Batec_de_Festa">GitHub</a>
+          <a className="link" href="https://partypulse-ynvm.onrender.com/">Web</a>
+          <a className="link" href="https://github.com/CristinaMateo/Batec_de_Festa">GitHub</a>
         </span>
       </article>
 
       <article className="project">
         <h3>PokeApp</h3>
         <article className="grid">
-          <p>Aplicación web creada con React que funciona como Pokédex que interactúa con la PokeApi mostrando así los detalles de cada pokémon. Permite realizar búsquedas mediante el id del pokémon o su nombre, además de crear nuevos pokémon con react-hook-form guardados en el contexto. <br />
-            Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams().</p>
+          <p>{t("projects.Poke.p1")}<a href="https://pokeapi.co/">PokeApi</a>{t("projects.Poke.p2")}<br />{t("projects.Poke.p3")}
+          </p>
           <img src="/assets/pokeapp.png" alt="Screenshot PokeApp" />
         </article>
         <span className="enlaces">
-        <a className="link" href="https://sweet-kitsune-b9bcb3.netlify.app">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/weatherInfo">GitHub</a>
+          <a className="link" href="https://sweet-kitsune-b9bcb3.netlify.app">Web</a>
+          <a className="link" href="https://github.com/CristinaMateo/weatherInfo">GitHub</a>
         </span>
       </article>
 
       <article className="project">
         <h3>WeatherInfo</h3>
         <article className="grid">
-          <p>Aplicación web creada con React que interactúa con <a href="https://openweathermap.org/">OpenWeather</a> para mostrar la predicción del tiempo cada tres horas de los siguientes cinco días según la ciudad que busque el usuario. <br />
-            Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams().</p>
+          <p>{t("projects.WA.p1")}<a href="https://openweathermap.org/">OpenWeather</a>{t("projects.WA.p2")}<br />{t("projects.WA.p3 ")}</p>
           <img src="/assets/weather.png" alt="screenshot WeatherInfo" />
         </article>
         <span className="enlaces">
-        <a className="link" href="https://yourweatherinfobycris.netlify.app/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/pokeApp">GitHub</a>
+          <a className="link" href="https://yourweatherinfobycris.netlify.app/">Web</a>
+          <a className="link" href="https://github.com/CristinaMateo/pokeApp">GitHub</a>
         </span>
       </article>
-
-      {/* <article className="project">
-        <h3>My TuttiFrutti App</h3>
-        <article className="grid">
-          <p>Aplicación web creada con Vanilla que interactúa con la api de <a href="https://www.fruityvice.com/">Fruityvice</a> para mostrar datos nutricionales de diferenctes frutas, si son parte de la temporada actual según el momento de consulta y su comparación nutricional mediante gráficos creados con <a href="https://www.chartjs.org/docs/latest/">chartjs</a>.</p>
-          <img src="/assets/myTF.png" alt="Screenshot My TuttiFrutti" />
-        </article>
-        <span className="enlaces">
-        <a className="link" href="https://cristinamateo.github.io/mytuttifruttiApp/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/mytuttifruttiApp">GitHub</a>
-        </span>
-      </article> */}
 
       <article className="project">
         <h3> Second Quiz</h3>
         <article className="grid">
-          <p>Segunda práctica de quiz, el primero es visitable en mi GitHub. Creado con Vanilla, hace peticiones a <a  href="https://opentdb.com/">Open DB</a> para crear un quiz con una temática televisiva y preguntas aleatorias que proporciona la API. Estilada como un teletexto para que concuerde con la temática del quiz. Ha sido gestionada con Firebase para los datos del usuario y su progreso en cada realización que haga del quiz.</p>
+          <p>{t("projects.SeQ.p1")}<a href="https://opentdb.com/">Open DB</a>{t("projects.SeQ.p2")}</p>
           <img src="/assets/Telequiz.png" alt="Screenshot Second Quiz" />
         </article>
         <span className="enlaces">
-        <a className="link" href="https://cristinamateo.github.io/secQuiz/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/secQuiz">GitHub</a>
+          <a className="link" href="https://cristinamateo.github.io/secQuiz/">Web</a>
+          <a className="link" href="https://github.com/CristinaMateo/secQuiz">GitHub</a>
         </span>
       </article>
 
-     {/*  <article className="project">
-        <h3> First quiz</h3>
-        <article className="grid">
-          <p>Primer proyecto con Vanilla, es el proyecto precursor de Second Quiz. Este fue el primer proyecto desarrollado con JS para manejar las respuestas del quiz y mostrar la puntuación final una vez que el usuario envía sus respuestas. </p>
-          <img src="/assets/FQuiz.png" alt="Screenshot First Quiz" />
-        </article>
-        <span className="enlaces">
-        <a className="link" href="https://cristinamateo.github.io/Quiz/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/Quiz">GitHub</a>
-        </span>
-      </article> */}
     </section>
   );
 };
