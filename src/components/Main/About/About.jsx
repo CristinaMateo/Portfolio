@@ -8,9 +8,8 @@ const About = () => {
     <section className="about">
       <h1>{t("menu.about")}</h1>
       <p>{t("about.aboutp1")}</p>
-      <p>{t("about.aboutp2")}</p>
-      <p>{t("about.aboutp3")}<br /><br />
-      {t("about.aboutp4")}
+      <p>{t("about.aboutp2")}<br /><br />
+      {t("about.aboutp3")}
       </p>
       <ul className="habilidades">
           <li>{t("skills.frontend")}</li>
@@ -23,7 +22,7 @@ const About = () => {
           <li>{t("skills.devops")}</li>
         </ul>
       
-      <p>{t("about.aboutp5")}</p>
+      <p>{t("about.aboutp4")}</p>
     </section >
   );
 };
