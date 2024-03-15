@@ -26,22 +26,14 @@ h1 {
 }
 
 .links-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: inherit;
-  align-items: center;
-  align-content: center;
+  display: flex;
   justify-content: space-evenly;
-  justify-items: center;
+  flex-wrap: wrap;
 }
 
-.link {
-  margin-right: 20px;
-}
 
 .link img {
   margin-right: 8px;
-
   width: 30px;
 }
 
@@ -83,21 +75,23 @@ h1 {
   .fotoPerfil {
     width: 60%;
   }
-  .homegrid{
+
+  .homegrid {
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 600px) {
 
-  .links-container{
-    grid-template-columns: 1fr;
-  }
-  .smallGrid{
+  
+
+  .smallGrid {
     width: 240px;
     justify-items: stretch;
   }
-  h1, h2{
-text-align: center;
+
+  h1,
+  h2 {
+    text-align: center;
   }
 }
