@@ -1,16 +1,20 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
+
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <section>
       
-      <h2>¡Hola! Soy Cristina. </h2>
+      <h2>{t("home.greeting")}</h2>
       <article className="homegrid">
       <img src="/assets/fotoPerfil.png" alt="Foto de perfil" className="fotoPerfil"/>
 
-      <p>Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración.
+      <p>{t("home.description")}
         <br /><br />
-        Encuentrame en:
+        {t("home.find")}
       </p>
       </article>
 
