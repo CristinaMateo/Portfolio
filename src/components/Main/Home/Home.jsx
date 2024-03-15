@@ -6,11 +6,12 @@ const Home = () => {
       
       <h2>¡Hola! Soy Cristina. </h2>
       <article className="homegrid">
+      <img src="/assets/fotoPerfil.png" alt="Foto de perfil" className="fotoPerfil"/>
+
       <p>Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración.
         <br /><br />
         Encuentrame en:
       </p>
-      <img src="/assets/fotoPerfil.png" alt="Foto de perfil" className="fotoPerfil"/>
       </article>
 
       <article className="links-container">

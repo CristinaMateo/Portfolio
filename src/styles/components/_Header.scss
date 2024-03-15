@@ -39,3 +39,20 @@ nav>a {
         color:$light;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        line-height: 30%;
+        margin: 0px auto;
+    }
+    header{
+        margin-bottom: 120px;
+    }
+    nav>a{
+        margin: 0px;
+        padding: 13px;
+    }
+  }
