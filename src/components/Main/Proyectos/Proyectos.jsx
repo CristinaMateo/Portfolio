@@ -8,7 +8,7 @@ const Proyectos = () => {
       <article className="project">
         <h3>Full TuttiFrutti</h3>
         <article className="grid">
-          <p>Recreación del proyecto "My TuttiFrutti App" mediante uso de ReactJS y NodeJS, además de una base de datos propia generada con PostgreSQL. El proyecto en el que se basa está incluido más adelante en esta misma página.
+          <p>Recreación del proyecto "My TuttiFrutti App" mediante uso de ReactJS y NodeJS, además de una base de datos propia generada con PostgreSQL. El proyecto en el que se basa se puede visitar en mi página de GitHub.
             <br />
             Aplicación web fullstack que muestra datos nutricionales de diferenctes frutas consumidas en España, además de su comparación mediante gráficos creados con <a href="https://react-chartjs-2.js.org/">react-chartjs-2</a> . También incluye un apartado extra que muestra los distintos usos que se le puede dar a diferentes frutas en la alimentación diaria. </p>
           <img src="/assets/FullFrutti.png" alt="Screenshot Full TuttiFrutti" />
@@ -59,7 +59,7 @@ const Proyectos = () => {
         </span>
       </article>
 
-      <article className="project">
+      {/* <article className="project">
         <h3>My TuttiFrutti App</h3>
         <article className="grid">
           <p>Aplicación web creada con Vanilla que interactúa con la api de <a href="https://www.fruityvice.com/">Fruityvice</a> para mostrar datos nutricionales de diferenctes frutas, si son parte de la temporada actual según el momento de consulta y su comparación nutricional mediante gráficos creados con <a href="https://www.chartjs.org/docs/latest/">chartjs</a>.</p>
@@ -69,12 +69,12 @@ const Proyectos = () => {
         <a className="link" href="https://cristinamateo.github.io/mytuttifruttiApp/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/mytuttifruttiApp">GitHub</a>
         </span>
-      </article>
+      </article> */}
 
       <article className="project">
         <h3> Second Quiz</h3>
         <article className="grid">
-          <p>Segunda práctica de quiz. Creado con Vanilla hace peticiones a <a  href="https://opentdb.com/">Open DB</a> Para crear un quiz con una temática televisiva y preguntas aleatorias que proporciona la API. Estilada como un teletexto para que concuerde con la temática del quiz. Ha sido gestionada con Firebase para los datos del usuario y su progreso en cada realización que haga del quiz.</p>
+          <p>Segunda práctica de quiz, el primero es visitable en mi GitHub. Creado con Vanilla, hace peticiones a <a  href="https://opentdb.com/">Open DB</a> para crear un quiz con una temática televisiva y preguntas aleatorias que proporciona la API. Estilada como un teletexto para que concuerde con la temática del quiz. Ha sido gestionada con Firebase para los datos del usuario y su progreso en cada realización que haga del quiz.</p>
           <img src="/assets/Telequiz.png" alt="Screenshot Second Quiz" />
         </article>
         <span className="enlaces">
@@ -83,7 +83,7 @@ const Proyectos = () => {
         </span>
       </article>
 
-      <article className="project">
+     {/*  <article className="project">
         <h3> First quiz</h3>
         <article className="grid">
           <p>Primer proyecto con Vanilla, es el proyecto precursor de Second Quiz. Este fue el primer proyecto desarrollado con JS para manejar las respuestas del quiz y mostrar la puntuación final una vez que el usuario envía sus respuestas. </p>
@@ -93,7 +93,7 @@ const Proyectos = () => {
         <a className="link" href="https://cristinamateo.github.io/Quiz/">Visitar Web</a>
         <a className="link" href="https://github.com/CristinaMateo/Quiz">GitHub</a>
         </span>
-      </article>
+      </article> */}
     </section>
   );
 };
