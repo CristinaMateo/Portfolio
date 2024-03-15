@@ -1,0 +1,84 @@
+{
+    "menu":{
+        "home": "Home",
+        "experiencia": "Experiencia",
+        "proyectos": "Proyectos",
+        "about": "Acerca de mí",
+        "historial":"Historial Profesional y Académico"
+    },
+    "about":{
+    "aboutp1": "Soy una Junior Full Stack Developer. Mi fascinación por la tecnología me llevó a un bootcamp de desarrollo web, donde me sumergí en la creación de soluciones digitales innovadoras.",
+    "aboutp2":"Aparte de mi formación en filología, mi habilidad para aprender idiomas se traduce en una capacidad única para enfrentar desafíos desde diversas perspectivas. Gracias a mi trayectoria, me adapto rápidamente a entornos dinámicos y colaboro eficazmente con equipos diversos.",
+    "aboutp3":"Mi pasión es el desarrollo web, y estoy emocionada por contribuir al mundo tecnológico con soluciones creativas. Siempre estoy abierta a nuevas oportunidades de aprendizaje y colaboración.",
+    "aboutp4":"En cuanto a mis habilidades en desarrollo Full Stack:",
+    "aboutp5":"Estoy emocionada por seguir avanzando en el desarrollo Full Stack y explorar nuevas oportunidades para aplicar mis habilidades."
+    },
+    "skills": {
+        "frontend": "Frontend: Manejo avanzado de HTML5, CSS3, Mobile First y experiencia con SASS.",
+        "javascript": "Javascript (ES6) y uso de servicios de terceros (APIs), junto con sólidos conocimientos en el protocolo HTTP.",
+        "databases": "Experiencia destacada con bases de datos SQL y noSQL, especialmente en MongoDB.",
+        "backend": "Desarrollo Backend con NodeJS y ExpressJS, centrado en la creación de API REST.",
+        "spa": "Creación de SPA's utilizando ReactJS.",
+        "testing": "Pruebas unitarias y E2E con práctica extensa.",
+        "agile": "Familiaridad con SCRUM y la filosofía Agile.",
+        "devops": "Experiencia comprobada en DevOps, incluyendo Docker, CI/CD y Kubernetes."
+      },
+      "experience": {
+        "title": "Experiencia Laboral",
+        "position": "INFORMADORA",
+        "company": "CC EL TRIANGLE",
+        "date": "JULIO 2021 - AGOSTO 2023",
+        "respon1":"Atención al cliente",
+        "respon2":"Tareas administrativas",
+        "respon3":"Informes para la gerencia del centro"       
+      },
+      "education": {
+        "title": "Educación",
+        "info": [
+          {
+            "course": "BOOTCAMP FULLSTACK DEVELOPMENT",
+            "institution": "The Bridge",
+            "date": "Septiembre 2023 – Enero 2024",
+            "topics": [
+              "Layout: HTML5, CSS3, SASS, responsive and mobile-first design.",
+              "JavaScript (ES6) y servicios de terceros (APIS’s)",
+              "Base de datos con MongoDB y MySQL.",
+              "Creación de SPA’s con React.",
+              "Desarrollo Backend con NodeJS y ExpressJS"
+            ]
+          },
+          {
+            "course": "MÁSTER DE FORMACIÓN DE PROFESORADO (ESPECIALIDAD DE CATALÁN Y CASTELLANO)",
+            "institution": "Universidad Autónoma de Barcelona",
+            "date": "Octubre 2021 – Junio 2022"
+          },
+          {
+            "course": "GRADO EN FILOLOGÍA HISPÁNICA (MENCIÓN EN LENGUA)",
+            "institution": "Universidad de Barcelona",
+            "date": "Septiembre 2017 – Junio 2021"
+          }
+        ]
+      },
+      "home":{
+        "greeting": "¡Hola! Soy Cristina.",
+        "description": "Junior Full Stack Developer apasionada por la tecnología. Con sólidos conocimientos en desarrollo web y habilidades Full Stack, estoy emocionada por contribuir al mundo tecnológico con soluciones creativas y explorar nuevas oportunidades de aprendizaje y colaboración. Encuéntrame en:"
+      },
+        "projects": [
+          {
+            "description": "Recreación del proyecto 'My TuttiFrutti App' mediante uso de ReactJS y NodeJS, además de una base de datos propia generada con PostgreSQL. El proyecto en el que se basa se puede visitar en mi página de GitHub. Aplicación web fullstack que muestra datos nutricionales de diferenctes frutas consumidas en España, además de su comparación mediante gráficos creados con react-chartjs-2. También incluye un apartado extra que muestra los distintos usos que se le puede dar a diferentes frutas en la alimentación diaria."
+          },
+          {
+            "description": "Página web de gestión de eventos. Permite visitar los detalles de cada evento. Una vez creado un usuario y loggeado también se pueden crear/ modificar / eliminar los eventos propios. En fase dos se incluirá una opción de confirmar la asistencia a los eventos y ver quién asistirá. Proyecto personal final del Bootcamp de Dessarrollo Web FullStack en The Bridge en el que se crea una aplicación web fullstack con ReactJS y NodeJS, además de una base de datos generada con PostgreSQL."
+          },
+          {
+            "description": "Aplicación web creada con React que funciona como Pokédex que interactúa con la PokeApi mostrando así los detalles de cada pokémon. Permite realizar búsquedas mediante el id del pokémon o su nombre, además de crear nuevos pokémon con react-hook-form guardados en el contexto. Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams()."
+          },
+          {
+            "description": "Aplicación web creada con React que interactúa con OpenWeather para mostrar la predicción del tiempo cada tres horas de los siguientes cinco días según la ciudad que busque el usuario. Es un proyecto que forma parte de la evolución del aprendizaje durante el Bootcamp de Dessarrollo Web FullStack en The Bridge y se practica el uso de useDebounce(), useEffect(), useState(), useContext() y useParams()."
+          },
+          {
+            "description": "Segunda práctica de quiz, el primero es visitable en mi GitHub. Creado con Vanilla, hace peticiones a Open DB para crear un quiz con una temática televisiva y preguntas aleatorias que proporciona la API. Estilada como un teletexto para que concuerde con la temática del quiz. Ha sido gestionada con Firebase para los datos del usuario y su progreso en cada realización que haga del quiz."
+          }
+        ]
+      
+}

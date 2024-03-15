@@ -59,18 +59,6 @@ const Proyectos = () => {
         </span>
       </article>
 
-      {/* <article className="project">
-        <h3>My TuttiFrutti App</h3>
-        <article className="grid">
-          <p>Aplicación web creada con Vanilla que interactúa con la api de <a href="https://www.fruityvice.com/">Fruityvice</a> para mostrar datos nutricionales de diferenctes frutas, si son parte de la temporada actual según el momento de consulta y su comparación nutricional mediante gráficos creados con <a href="https://www.chartjs.org/docs/latest/">chartjs</a>.</p>
-          <img src="/assets/myTF.png" alt="Screenshot My TuttiFrutti" />
-        </article>
-        <span className="enlaces">
-        <a className="link" href="https://cristinamateo.github.io/mytuttifruttiApp/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/mytuttifruttiApp">GitHub</a>
-        </span>
-      </article> */}
-
       <article className="project">
         <h3> Second Quiz</h3>
         <article className="grid">
@@ -83,17 +71,6 @@ const Proyectos = () => {
         </span>
       </article>
 
-     {/*  <article className="project">
-        <h3> First quiz</h3>
-        <article className="grid">
-          <p>Primer proyecto con Vanilla, es el proyecto precursor de Second Quiz. Este fue el primer proyecto desarrollado con JS para manejar las respuestas del quiz y mostrar la puntuación final una vez que el usuario envía sus respuestas. </p>
-          <img src="/assets/FQuiz.png" alt="Screenshot First Quiz" />
-        </article>
-        <span className="enlaces">
-        <a className="link" href="https://cristinamateo.github.io/Quiz/">Visitar Web</a>
-        <a className="link" href="https://github.com/CristinaMateo/Quiz">GitHub</a>
-        </span>
-      </article> */}
     </section>
   );
 };

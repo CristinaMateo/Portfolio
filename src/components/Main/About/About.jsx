@@ -1,33 +1,29 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="about">
-      <h1>Acerca de mí </h1>
-      <p>Hola, soy Cristina, una Junior Full Stack Developer. Mi fascinación por la tecnología me llevó a un bootcamp de desarrollo web, donde me sumergí en la creación de soluciones digitales innovadoras.
-      </p>
-      <p>
-        Aparte de mi formación en filología, mi habilidad para aprender idiomas se traduce en una capacidad única para enfrentar desafíos desde diversas perspectivas. Gracias a mi trayectoria, me adapto rápidamente a entornos dinámicos y colaboro eficazmente con equipos diversos.
-      </p>
-      <p>
-        Mi pasión es el desarrollo web, y estoy emocionada por contribuir al mundo tecnológico con soluciones creativas. Siempre estoy abierta a nuevas oportunidades de aprendizaje y colaboración.
-        <br /><br />
-        En cuanto a mis habilidades en desarrollo Full Stack:
+      <h1>{t("menu.about")}</h1>
+      <p>{t("about.aboutp1")}</p>
+      <p>{t("about.aboutp2")}</p>
+      <p>{t("about.aboutp3")}<br /><br />
+      {t("about.aboutp4")}
       </p>
       <ul className="habilidades">
-          <li>Frontend: Manejo avanzado de HTML5, CSS3, Mobile First y experiencia con SASS.</li>
-          <li>Javascript (ES6) y uso de servicios de terceros (APIs), junto con sólidos conocimientos en el protocolo HTTP.</li>
-          <li>Experiencia destacada con bases de datos SQL y noSQL, especialmente en MongoDB.</li>
-          <li>Desarrollo Backend con NodeJS y ExpressJS, centrado en la creación de API REST.</li>
-          <li>Creación de SPA's utilizando ReactJS.</li>
-          <li>Pruebas unitarias y E2E con práctica extensa.</li>
-          <li>Familiaridad con SCRUM y la filosofía Agile.</li>
-          <li>Experiencia comprobada en DevOps, incluyendo Docker, CI/CD y Kubernetes.</li>
+          <li>{t("skills.frontend")}</li>
+          <li>{t("skills.javascript")}</li>
+          <li>{t("skills.databases")}</li>
+          <li>{t("skills.backend")}</li>
+          <li>{t("skills.spa")}</li>
+          <li>{t("skills.testing")}</li>
+          <li>{t("skills.agile")}</li>
+          <li>{t("skills.devops")}</li>
         </ul>
       
-      <p>
-        Estoy emocionada por seguir avanzando en el desarrollo Full Stack y explorar nuevas oportunidades para aplicar mis habilidades.
-      </p>
+      <p>{t("about.aboutp5")}</p>
     </section >
   );
 };
